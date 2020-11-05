@@ -1,0 +1,22 @@
+.bg {
+    background: url(../backgroundImage/autumnHill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-container {
+    border: 1px solid #ffffff;
+    padding: 50px 60px;
+    -webkit-box-shadow: 28px 11px 26px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 28px 11px 26px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 28px 11px 26px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    background-color: linen;
+    opacity: 0.9;
+}
+
+label {
+    width: 100%;
+    text-align: center;
+}

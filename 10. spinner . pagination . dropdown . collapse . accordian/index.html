@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!---->
+      <!--SPINNER-->
+      <p>--spinner--</p>
+      <div class="spinner-border spinner-border-sm text-danger"></div>
+      <div class="spinner-grow spinner-grow-sm text-success"></div>
+      <hr />
+      <!--PAGINATION-->
+      <p>--PAGINATION--</p>
+      <ul
+        class="pagination pagination-sm justify-content-end"
+        style="margin: 20px 10px"
+      >
+        <li class="page-item"><a href="#" class="page-link">PREVIOUS</a></li>
+        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">NEXT</a></li>
+      </ul>
+      <hr />
+      <p>--DROPDOWN--</p>
+      <div class="dropdown">
+        <button
+          type="button"
+          class="btn btn-primary dropdown-toggle"
+          data-toggle="dropdown"
+        >
+          CLICK FOR DROP
+        </button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">link 1</a>
+          <a href="#" class="dropdown-item">link 2</a>
+          <a href="#" class="dropdown-item">link 3</a>
+        </div>
+      </div>
+      <hr />
+      <p>Collapse</p>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="collapse"
+        data-target="#demo"
+      >
+        SIMPLE COLLAPSIBLE
+      </button>
+      <div id="demo" class="collapse">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+          voluptatem necessitatibus, quam voluptate repellat natus corrupti
+          reiciendis odit. Dicta, aliquam.
+        </p>
+      </div>
+      <hr />
+      <p>--Accordian--</p>
+      <div id="accordian">
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseOne" class="card-link" data-toggle="collapse">Collapse Group item 1</a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordian">
+            <div class="card-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Provident harum maxime, autem illum optio corrupti, eum aperiam
+              excepturi quas error rem reprehenderit, animi totam fugiat numquam
+              maiores id est repellendus!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseTwo" class="card-link" data-toggle="collapse">Collapse Group item 1</a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordian">
+            <div class="card-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Provident harum maxime, autem illum optio corrupti, eum aperiam
+              excepturi quas error rem reprehenderit, animi totam fugiat numquam
+              maiores id est repellendus!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
